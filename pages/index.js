@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <h1>your public key {process.env.NEXT_PUBLIC_ANALYTICS_ID}</h1>
-        <h1>your secret key {process.env.API_KEY} //not access ble</h1>
+        <h1>your secret key {process.env.customKey} is accessable</h1>
       </main>
     </>
   )
